@@ -3,12 +3,13 @@
 ## AIM:
 To write a C function to delete an element from an AVL Tree.
 ## Algorithm
+```
 1.If node is NULL, return NULL.
 2.If key x is greater than node’s data, recursively delete in right subtree and rebalance if needed.
 3.If key x is less than node’s data, recursively delete in left subtree and rebalance if needed.
 4.If key matches node’s data, replace node’s data with inorder successor’s data (smallest in right subtree), then delete successor and rebalance.
 5.Update height and return the node. 
-
+```
 ## Program:
 ```
 
