@@ -4,12 +4,13 @@
 To write a C function to traverse the elements in a B+ Tree.
 
 ## Algorithm
+```
 1.Start at the current node p.
 2.For each key from 0 to p->n-1:
 3.If p is not a leaf, recursively traverse p->child_ptr[i].
 4.Print the key p->data[i].
 5.If p is not a leaf, recursively traverse the last child p->child_ptr[p->n].
-
+```
 ## Program:
 ```
 /*
