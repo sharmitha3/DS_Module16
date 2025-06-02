@@ -4,12 +4,13 @@
 To write a C function to insert the elements in an AVL Tree.
 
 ## Algorithm
+```
 1. If the tree is empty, create a new node and return it.
 2.If the value is less than the current node, insert in the left subtree.
 3.If the value is greater than the current node, insert in the right subtree.
 4.After insertion, update the height and check the balance factor.
 5.If unbalanced, perform the appropriate rotation (LL, RR, LR, or RL) and return the balanced node. 
-
+```
 ## Program:
 ```
 
